@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.doorstepindia.myapplication1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/my_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".ACActivity" />
+        <activity android:name=".ElectricalActivity" />
+        <activity android:name=".PlumbingActivity" />
+        <activity android:name=".PaintingActivity" />
+        <activity android:name=".CarpentryActivity" />
+        <activity android:name=".CCTVActivity" />
+        <activity android:name=".AppliancesActivity" />
+        <activity android:name=".CarCareActivity" />
+        <activity android:name=".ac.ACInstallActivity"></activity>
+        <activity android:name=".ac.ACUnistallActivity" />
+        <activity android:name=".ac.ACServiceActivity" />
+        <activity android:name=".ac.ACNotCoolingActivity">
+
+        </activity>
+        <activity android:name=".ac.ACGasRefillActivity" />
+        <activity android:name=".carcare.CarWashActivity" />
+        <activity android:name=".carcare.ExteriorActivity" />
+        <activity android:name=".carcare.InteriorActivity" />
+        <activity android:name=".carcare.TeflonActivity" />
+        <activity android:name=".carcare.ProtectionActivity" />
+        <activity android:name=".electrical.GeneralActivity" />
+        <activity android:name=".electrical.CeilingFanActivity" />
+        <activity android:name=".electrical.WallFanActivity" />
+        <activity android:name=".electrical.ExhaustActivity" />
+        <activity android:name=".electrical.MCBActivity" />
+        <activity android:name=".plumbing.GeneralPlumbingActivity" />
+        <activity android:name=".plumbing.WaterActivity" />
+        <activity android:name=".plumbing.OverheadActivity" />
+        <activity android:name=".plumbing.UnderGroundActivity" />
+        <activity android:name=".plumbing.SmallActivity" />
+        <activity android:name=".painting.FreshPaintingActivity" />
+        <activity android:name=".painting.TexturedPaintingActivity" />
+        <activity android:name=".painting.ExteriorPaintingActivity" />
+        <activity android:name=".carpentry.GeneralCarpentryActivity" />
+        <activity android:name=".carpentry.NewFurnitureActivity" />
+        <activity android:name=".carpentry.FurnitureRepairActivity" />
+        <activity android:name=".carpentry.FurnitureAssemblyActivity" />
+        <activity android:name=".carpentry.DoorOrWindowActivity" />
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".PaymentActivity"></activity>
+    </application>
+
+</manifest>

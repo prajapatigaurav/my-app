@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Doorstep India</string>
+    <string name="ac_service">The best way to get optimum performance out of your
+ air conditioner is to have it serviced regularly. To the minimum,get your AC serviced once
+ before and once after summers.</string>
+    <string name="ac_install">An AC, when installed correctly will be more efficient and work as it is designed
+    to. Not only will it be more3 efficient,it will also minimize unwanted noises and vibrations.</string>
+    <string name="ac_unistall">A typical window AC weights anywhere between 20kgs to 30kgs depending upon the size and capacity of AC, the huge load makes
+    AC unistallation process an equally tricky affair as its installation.</string>
+    <string name="ges_refill">Freon-th etechnical name of the gas refrigerant in the AC-with time gets depleted and needs to be
+    replenished in order for the AC to continue cooling. Hire th ebest Pros for job now.</string>
+    <string name="ac_not_cooling">What is worse than broken AC or an air conditioner that does not start?
+    An AC that is not cooling,or to say, not cooling enough.Book the best Pros in your area,now....</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+</resources>
